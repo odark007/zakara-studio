@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zakari Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">ZAKARI</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#exhibitions">Exhibitions</a></li>
+        <li><a href="#commission">Commission</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">Hand-Painted Works</p>
+      <h1 class="hero-title">ZAKARI</h1>
+      <p class="hero-subtitle">Figurative painting rooted in identity, memory, and the African experience</p>
+      <a href="#exhibitions" class="btn btn-gold">View Exhibitions</a>
+    </div>
+    <div class="hero-scroll-cue">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <p class="section-label">About the Artist</p>
+        <h2 class="section-title">Painting Stories That<br>Cannot Be Forgotten</h2>
+        <p class="about-body">
+          Zakari is a Ghanaian painter whose practice is rooted in the tradition of hand-painted portraiture.
+          Working primarily in oil and acrylic on large-format canvas, he creates images that centre everyday
+          people within compositions of richness and ceremony.
+        </p>
+        <p class="about-body">
+          His work draws on the visual language of West African textile, Adinkra symbolism, and classical
+          European portraiture — fusing these into a singular voice that insists on dignity, presence, and
+          the weight of being seen.
+        </p>
+        <a href="#" class="btn btn-green">Learn More</a>
+      </div>
+      <div class="about-image">
+        <img src="/assets/ChatGPT Image Apr 29, 2026, 07_05_30 PM.png" alt="Portrait of Zakari" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="process-container">
+      <div class="process-header">
+        <p class="section-label">Behind the Canvas</p>
+        <h2 class="section-title">The Process</h2>
+        <p class="process-intro">Every painting begins with a conversation. From first sketch to final brushstroke, each work is entirely made by hand.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <img src="/assets/shatta-wale.jpg" alt="a picture of shatta wale" />
+          <h3>Sketch</h3>
+          <p>Initial drawings capture proportion, gesture, and composition before paint ever touches canvas.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <img src="https://placehold.co/400x300/CE1126/FFD6DA?text=Underpainting" alt="Underpainting phase" />
+          <h3>Underpainting</h3>
+          <p>A tonal foundation built in raw umber sets the light and shadow before colour is introduced.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <img src="https://placehold.co/400x300/006B3F/A8E6CB?text=Colour+Layers" alt="Colour layers phase" />
+          <h3>Colour Layers</h3>
+          <p>Colour is applied in transparent glazes, building depth and luminosity across multiple sessions.</p>
+        </div>
+        <div class="process-card">
+          <div class="process-num">04</div>
+          <img src="https://placehold.co/400x300/1A1A1A/CCCCCC?text=Finished+Work" alt="Finished work" />
+          <h3>Finished Work</h3>
+          <p>Final details — highlights, textures, and pattern work — are resolved by hand before varnishing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXHIBITIONS -->
+  <section class="exhibitions" id="exhibitions">
+    <div class="exhibitions-header">
+      <p class="section-label light">Selected Works</p>
+      <h2 class="section-title light">Exhibitions</h2>
+    </div>
+    <div class="slideshow-wrapper">
+      <div class="slideshow-track" id="slideshowTrack">
+        <!-- Cards duplicated in JS for infinite loop -->
+        <div class="slide-card">
+          <img src="https://placehold.co/320x480/006B3F/FCD116?text=Work+I" alt="Work I" />
+          <div class="slide-caption">
+            <span class="slide-title">Adwoa, 2023</span>
+            <span class="slide-medium">Oil on canvas</span>
+          </div>
+        </div>
+        <div class="slide-card">
+          <img src="https://placehold.co/320x480/FCD116/5A3E00?text=Work+II" alt="Work II" />
+          <div class="slide-caption">
+            <span class="slide-title">The Return, 2023</span>
+            <span class="slide-medium">Acrylic on canvas</span>
+          </div>
+        </div>
+        <div class="slide-card">
+          <img src="https://placehold.co/320x480/CE1126/FFD6DA?text=Work+III" alt="Work III" />
+          <div class="slide-caption">
+            <span class="slide-title">Kente Study I, 2022</span>
+            <span class="slide-medium">Oil on canvas</span>
+          </div>
+        </div>
+        <div class="slide-card">
+          <img src="https://placehold.co/320x480/1A1A1A/FCD116?text=Work+IV" alt="Work IV" />
+          <div class="slide-caption">
+            <span class="slide-title">Nana, 2022</span>
+            <span class="slide-medium">Oil on board</span>
+          </div>
+        </div>
+        <div class="slide-card">
+          <img src="https://placehold.co/320x480/006B3F/CE1126?text=Work+V" alt="Work V" />
+          <div class="slide-caption">
+            <span class="slide-title">Ceremony, 2021</span>
+            <span class="slide-medium">Acrylic on canvas</span>
+          </div>
+        </div>
+        <div class="slide-card">
+          <img src="https://placehold.co/320x480/CE1126/FCD116?text=Work+VI" alt="Work VI" />
+          <div class="slide-caption">
+            <span class="slide-title">Elder, 2021</span>
+            <span class="slide-medium">Oil on canvas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMISSION -->
+  <section class="commission" id="commission">
+    <div class="commission-container">
+      <div class="commission-info">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Commission a Work</h2>
+        <p class="commission-body">
+          Zakari accepts a limited number of private commissions each year. Whether you are seeking a portrait,
+          a large-scale installation, or a gift of lasting significance, each commission begins with a personal
+          conversation about vision, scale, and story.
+        </p>
+        <ul class="commission-details">
+          <li><span class="detail-label">Lead time</span><span>10 to 16 weeks</span></li>
+          <li><span class="detail-label">Formats</span><span>Portrait, figurative, abstract</span></li>
+          <li><span class="detail-label">Medium</span><span>Oil or acrylic on canvas</span></li>
+          <li><span class="detail-label">Studio</span><span>Accra, Ghana</span></li>
+        </ul>
+      </div>
+      <div class="commission-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Your full name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Commission enquiry" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell Zakari about the work you have in mind..."></textarea>
+        </div>
+        <button class="btn btn-red" id="submitBtn">Send Enquiry</button>
+        <p class="form-note" id="formNote"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-social">
+      <a href="#" class="social-link" aria-label="Twitter">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a href="#" class="social-link" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#" class="social-link" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </div>
+    <div class="footer-brand">
+      <div class="footer-rule"></div>
+      <div class="footer-monogram">ZK</div>
+      <div class="footer-rule"></div>
+    </div>
+    <p class="footer-name">ZAKARI STUDIO</p>
+    <p class="footer-copy">&copy; 2024 Zakari Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
